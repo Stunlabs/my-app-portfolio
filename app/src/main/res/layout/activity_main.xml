@@ -1,0 +1,107 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1.0">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.334"
+        android:layout_gravity="center_horizontal">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:text="SPOTIFY STREAMER"
+            android:id="@+id/btn_spotify"
+            android:background="#ffaed000"
+            android:textAlignment="center"
+            android:textColor="#ffffffff"
+            android:textSize="18dp"
+            android:onClick="onButtonClick"
+            android:padding="5dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:text="SCORES APP"
+            android:id="@+id/btn_scores"
+            android:background="#ff00539b"
+            android:textColor="#ffffffff"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            android:onClick="onButtonClick"
+            android:padding="5dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.334">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:text="LIBRARY APP"
+            android:id="@+id/btn_library"
+            android:textColor="#ffffffff"
+            android:textSize="18dp"
+            android:textAlignment="center"
+            android:background="#04a9e9"
+            android:onClick="onButtonClick"
+            android:padding="5dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:text="BUILD IT BIGGER"
+            android:id="@+id/btn_bigger"
+            android:background="#fff08c35"
+            android:textColor="#ffffffff"
+            android:textSize="18dp"
+            android:onClick="onButtonClick"
+            android:padding="5dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+
+        android:layout_weight="0.334">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:text="XYZ READER"
+            android:id="@+id/btn_reader"
+            android:textColor="#ffffffff"
+            android:textSize="18dp"
+            android:background="#46c80f"
+            android:onClick="onButtonClick"
+            android:padding="5dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:text="CAPSTONE: MY OWN APP"
+            android:id="@+id/btn_capstone"
+            android:textSize="18dp"
+            android:textColor="#ffffffff"
+            android:textAlignment="center"
+            android:background="#ffcd0d3e"
+            android:onClick="onButtonClick"
+            android:padding="5dp" />
+    </LinearLayout>
+
+</LinearLayout>
